@@ -1,0 +1,14 @@
+select abs(-458) as new_number;
+select * from students;
+select avg(age) as average from students;
+select ceiling(25.3) as new_number_1;
+select floor(27.7) as new_number_1;
+select round(27.6) as new_number_2;
+select count(student_id) as total_student_id from students;
+select max(age) as age_ from students;
+select pi() as pi_value;
+select rand() as random_number;
+select floor(rand()*100) as random_number;
+select dayname('1999/09/22') as data_current;
+select sysdate();
+select now();

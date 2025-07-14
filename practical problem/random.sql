@@ -1,0 +1,1 @@
+select * from employee order by rand() limit 6;

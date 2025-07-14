@@ -1,0 +1,10 @@
+select if (10>20, 'value1' , 'value2') as result;
+use db1;
+select * from student;
+use db1;
+select studentname, age, if(age <= 12, 'eligible', 'not eligible') as status from student;
+select ifnull(2,'hello') as result;
+use db2;
+select * from country right join capital on country.country_code = capital.country_code;
+use db2;
+select capital.capital_name,ifnull(country.country_name,'not defined')from country right join capital on country.country_code = capital.country_code;
