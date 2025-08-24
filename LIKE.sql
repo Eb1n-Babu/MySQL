@@ -1,0 +1,13 @@
+use mysql_project;
+select * from customers;
+select * from customers where country like 'a%';
+select * from customers where country like 'M%';
+select * from customers where country like '%a';
+select * from customers where country like '%or%';
+select * from customers where country like '%a%';
+select * from customers where country like '%n%';
+select * from customers where country like '_r%';
+select * from customers where country like 'a__%';
+select * from customers where contact_name like 'a%o';
+select * from customers where contact_name like 'a%a';
+select * from customers where contact_name not like 'a%';
